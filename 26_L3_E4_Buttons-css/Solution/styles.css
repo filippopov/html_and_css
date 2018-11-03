@@ -1,0 +1,51 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body {
+    background: #EEE;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: 0.1rem solid black;
+    padding: 0.6rem;
+    border-radius: 1.5rem;
+    width: 9rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+article:nth-child(1) button {
+    background: #EEE;
+}
+
+article:nth-child(1) button:hover {
+    background: #FEFEFE;
+    border: 0.1rem solid #235E28;
+    color: #235E28;
+}
+
+article:nth-child(2) button,
+article:nth-child(3) button {
+    background-color: #363234;
+    color: white;
+}
+
+article:nth-child(2) button:hover,
+article:nth-child(3) button:hover{
+    background: #006600;
+    border: 0.1rem solid #006600;
+}
+
+
+article:nth-child(3) button i {
+    margin-right: 0.4rem;
+    font-size: 1rem;
+}

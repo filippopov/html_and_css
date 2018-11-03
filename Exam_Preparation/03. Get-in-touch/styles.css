@@ -1,0 +1,126 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Montserrat', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(132, 106, 221, 0.7), rgba(132, 106, 221, 0.7)), url(images/bg-01.jpg);
+    background-size: cover;
+}
+
+main {
+    width: 60%;
+    background: white;
+    margin: 15% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+section {
+    width: 45%;
+    vertical-align: center;
+}
+
+/*Start Input*/
+
+.input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.input input {
+    order: 1;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    position: relative;
+    z-index: 3;
+    background: none;
+    outline: none;
+    flex: 1 0 auto;
+}
+
+.input .fas {
+    order: 0;
+    position: relative;
+    z-index: 2;
+    line-height: 1;
+    padding: 0.2rem 0.5rem 0.2rem 0.7rem;
+    font-size: 1rem;
+}
+
+.input .actions {
+    background: lightgray;
+    border: none;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 1.8rem;
+    z-index: 1;
+}
+
+.input input:focus + .actions + .fas {
+    color: #846ADD;
+}
+
+/*End Input*/
+.field {
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 1.8rem;
+    padding: 1rem;
+    background: lightgray;
+    border: none;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    background: #846ADD;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+input[type="submit"]:hover {
+    background: black;
+    cursor: pointer;
+}
+
+h3 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+main section:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:nth-child(1) img {
+    width: 50%;
+    height: 50%;
+}

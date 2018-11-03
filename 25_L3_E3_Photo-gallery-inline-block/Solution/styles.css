@@ -1,0 +1,23 @@
+body {
+    background: rgb(238, 238, 238);
+    padding: 10rem;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 33%;
+}
+
+ul li img {
+    max-width: 60%;
+    height: auto;
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+}
+
+
+
+

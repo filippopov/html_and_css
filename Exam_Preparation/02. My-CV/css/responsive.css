@@ -1,0 +1,96 @@
+@media screen and (max-width: 1028px) and (min-width: 769px){
+    section#main {
+        flex-direction: column;
+    }
+
+    section#main aside {
+        width: 92%;
+        padding: 2rem 1rem;
+    }
+
+    section#main aside img {
+        width: 45%;
+        height: 351px;
+        border-radius: 50%;
+        float: left;
+        margin: 2rem 4rem;
+        box-shadow: 10px 10px 15px 0px rgba(197,198,209,1);
+    }
+
+    #personal-info {
+        margin-top: 6rem;
+    }
+
+    .inner-progress-bar {
+        color: #009688;
+    }
+
+    section#main {
+        width: 100%;
+    }
+
+    section#main main {
+        width: 100%;
+    }
+
+    #work {
+        padding: 2rem;
+    }
+
+    #education .school {
+        padding: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    section#main {
+        flex-direction: column;
+    }
+
+    section#main aside {
+        width: 92%;
+        padding: 2rem 1rem;
+    }
+
+    section#main aside img {
+        width: 100%;
+    }
+
+    .inner-progress-bar {
+        color: #009688;
+    }
+
+    section#main {
+        width: 100%;
+    }
+
+    section#main main {
+        width: 100%;
+    }
+
+    #work {
+        padding: 2rem;
+    }
+
+    #education .school {
+        padding: 2rem;
+    }
+
+    #education .school h4 {
+        font-size: 2.2em;
+    }
+
+    #education .school .uni-img-container  {
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #education .school {
+        padding: 2rem;
+    }
+}
+

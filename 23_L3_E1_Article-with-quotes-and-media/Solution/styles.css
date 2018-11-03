@@ -1,0 +1,48 @@
+body {
+    background: #EEE;
+    padding: 5rem;
+}
+
+body > header:first-of-type {
+    border-bottom: 2px solid black;
+}
+
+img {
+    width: 180px;
+}
+
+header p.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.2rem
+}
+
+main article:nth-child(1) img{
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+}
+
+main article:nth-child(3) img{
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+}
+
+main article:nth-child(3) img,
+main article:nth-child(1) img {
+    height: auto;
+    border: 0.3rem solid black;
+    padding: 0.5rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3);
+}
+
+blockquote {
+    max-width: 40%;
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    color: black;
+}
+
+blockquote p.author {
+    float: right;
+}

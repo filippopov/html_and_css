@@ -1,0 +1,43 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+div.viewport:first-of-type {
+    background-image: linear-gradient(to right, #185B9D , #2D919F, #43CDA2);
+    height: 100vh;
+}
+
+div.viewport:first-of-type section.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.viewport:last-of-type {
+    background-image: linear-gradient(to right, #A83378 , #BB5848, #D28114);
+    height: 100vh;
+}
+
+div.viewport:last-of-type section.card {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.viewport section.card i {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+div.viewport:first-of-type section.card i {
+    position: absolute;
+    top: 90%;
+    left: 95%;
+}
+
+div.viewport:last-of-type section.card i {
+    position: absolute;
+    top: 95%;
+    left: 95%;
+}

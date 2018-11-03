@@ -1,0 +1,24 @@
+@import url('reset.css');
+@import url('typography.css');
+
+body {
+    background: #EEE;
+    padding: 2rem;
+}
+
+ul.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+    width: 30%;
+    list-style: none;
+}
+
+ul li img {
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+}
