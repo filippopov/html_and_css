@@ -1,0 +1,162 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Open+Sans', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    vertical-align: center;
+}
+
+header nav ul li {
+    margin: 3rem;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #F05F40;
+}
+
+main section:nth-child(1) {
+    background-image: url('img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+    text-align: center;
+}
+
+main section:nth-child(1) h2 {
+    color: white;
+    font-size: 2.4rem;
+}
+
+main section:nth-child(1) h2:after {
+    content: '';
+    display: block;
+    width: 5rem;
+    border: 2px solid #F05F40;
+    margin: 2rem auto;
+}
+
+main section:nth-child(1) p {
+    color: lightgray;
+}
+
+main section:nth-child(2) {
+    background: #F05F40;
+    color: white;
+    padding: 5rem;
+    text-align: center;
+}
+
+main section:nth-child(2) h3 {
+    font-size: 2rem;
+}
+
+main section:nth-child(2) h3:after {
+    content: '';
+    display: block;
+    width: 5rem;
+    border: 2px solid white;
+    margin: 2rem auto;
+}
+
+main section:nth-child(2) p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+main section:nth-child(2) input[type="submit"] {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 1.8rem;
+    font-size: 1.4rem;
+    background: white;
+    margin: 2rem 0 0 0;
+    font-weight: bold;
+}
+
+main section:nth-child(3) {
+    text-align: center;
+    padding: 5rem;
+}
+
+main section:nth-child(3) h3 {
+    font-size: 2rem;
+}
+
+main section:nth-child(3) h3:after {
+    content: '';
+    display: block;
+    width: 5rem;
+    border: 2px solid #F05F40;
+    margin: 2rem auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.container article {
+    width: 15%;
+}
+
+.container article i {
+    font-size: 4rem;
+    margin: 1rem;
+    color: #F05F40;
+}
+
+.container article h4 {
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+.container article p {
+    color: gray;
+}
+
+main section:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #F05F40;
+    border-top: 3px solid #F05F40;
+}
+
+main section:nth-child(4) article {
+    width: 25%;
+}
+
+main section:nth-child(4) article img {
+    margin: 0 1rem -0.5rem 0;
+    width: 90%;
+    border: 3px solid #F05F40;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer span {
+    color: #F05F40;
+}

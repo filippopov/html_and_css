@@ -1,0 +1,64 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Open+Sans', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #FAEBC8;
+
+}
+
+main {
+    width: 60%;
+    margin: 5% auto;
+    background: white;
+    display: flex;
+    border-radius: 1rem;
+    padding: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 12px 8px rgba(194,153,132,1);
+}
+
+main section {
+    flex: 0 0 24%;
+    text-align: center;
+    margin: 0 2rem;
+    align-self: auto ;
+}
+
+main section img {
+    margin-bottom: 2rem;
+    width: 35%;
+}
+
+main section h2 {
+    margin-bottom: 2rem;
+}
+body > main > section > p:nth-child(3) {
+    height: 12rem;
+}
+
+main section p {
+    text-align: left;
+    margin: 0 0 2rem 0;
+}
+
+section p:last-child {
+    color: #995F55;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 26px 26px 4px rgba(150, 150, 150, 1);
+}

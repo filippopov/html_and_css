@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+
+    header > .logo {
+        margin: 0 0 1.5rem 0;
+    }
+
+    .wrapper.style1 .content {
+        padding: 1rem;
+    }
+
+    .wrapper.style2 {
+        padding: 1rem;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery div {
+        width: 100%;
+    }
+
+    .spotlight {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .spotlight .inner {
+        padding: 1rem;
+    }
+
+    .spotlight img {
+        width: 100%;
+    }
+
+    .spotlight > * {
+        width: 90%;
+    }
+
+    .spotlight.alt {
+        text-align: center;
+    }
+}
